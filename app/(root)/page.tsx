@@ -8,7 +8,7 @@ export default function Home() {
         <p>Admin Dashboard</p>
       </div>
       <div className="flex justify-center">
-        <Button size="lg" variant="ghost">Click me</Button>
+        <Button size="sm" variant="ghost">Click me</Button>
       </div>
     </>
   );
