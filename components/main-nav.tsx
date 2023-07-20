@@ -15,6 +15,12 @@ function MainNav({ className, ...props }: React.HTMLAttributes<HTMLElement>) {
       active: pathname === `/${params.storeId}/settings`,
       
     },
+    {
+      href:`/${params.storeId}`,
+      label:"Dashboard",
+      active: pathname === `/${params.storeId}`
+    }
+
    
   ];
 
